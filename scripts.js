@@ -19,45 +19,53 @@ let animal = {
 
 let animal2 = {...animal}
 
-animal2.nome: ,
-animal.cor: ,
-animal2.peso: ,
-animal2.pais_origem: ,
-animal2.alimentação: ,
-animal2.idade: ,
+animal2.nome = 'Mana',
+animal.cor = 'malhada',
+animal2.peso = '5kg',
+animal2.pais_origem = 'Brasil',
+animal2.alimentação = 'ração',
+animal2.idade = '5'
 
 let animal3 = {...animal}
 
-animal3.nome: ,
-animal3.cor: ,
-animal3.peso: ,
-animal3.pais_origem: ,
-animal3.alimentação: ,
-animal3.idade: ,
+animal3.nome = 'Luna',
+animal3.cor = 'caramelo' ,
+animal3.peso = '40kg' ,
+animal3.pais_origem =  'Brasil',
+animal3.alimentação = 'ração',
+animal3.idade = '3'
 
 let animal4 = {...animal}
 
-animal4.nome: ,
-animal4.cor: ,
-animal4.peso: ,
-animal4.pais_origem: ,
-animal4.alimentação: ,
-animal4.idade: ,
+animal4.nome = 'Mistura',
+animal4.cor = 'cinza',
+animal4.peso = '10kg',
+animal4.pais_origem = 'Brasil',
+animal4.alimentação = 'ração',
+animal4.idade= '10'
 
 let animal5 = {...animal}
 
-animal5.nome: ,
-animal5.cor: ,
-animal5.peso: ,
-animal5.pais_origem: ,
-animal5.alimentação: ,
-animal5.idade: ,
+animal5.nome = 'Madona',
+animal5.cor = 'amarela',
+animal5.peso = '20kg',
+animal5.pais_origem = 'Brasil',
+animal5.alimentação = 'ração',
+animal5.idade = 'falecida'
 
 let animal6 = {...animal}
 
-animal6.nome: ,
-animal6.cor: ,
-animal6.peso: ,
-animal6.pais_origem: ,
-animal6.alimentação: ,
-animal6.idade: ,
+animal6.nome = 'João Paulo',
+animal6.cor = 'amarelo',
+animal6.peso = '200g',
+animal6.pais_origem = 'Brasil',
+animal6.alimentação = 'sementes',
+animal6.idade = 'falecido'
+
+listaDeAnimais.push(animal,animal2,animal3,animal4,animal5,animal6)
+
+animal3.nome = 'Babona'
+animal4.nome = 'Ovelha'
+
+console.log(animal2)
+console.log(animal3)
